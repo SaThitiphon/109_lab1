@@ -9,6 +9,7 @@ int main()
         scanf("%ld",&a[i]);
     }
     Max = a[0];
+    d = 1;
     for(j=1;j<N;j++)
     {
         if(Max<a[j])
