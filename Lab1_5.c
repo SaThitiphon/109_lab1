@@ -18,5 +18,6 @@ int main()
         }
     }
     printf("%d %d",d,Max);
+    return 0;
 }
 
