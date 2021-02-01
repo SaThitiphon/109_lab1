@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int N,i,Max,d,j;
-    scanf("%d",&N);
-    int a[N];
+    long N,i,Max,d,j;
+    scanf("%ld",&N);
+    long a[N];
     for(i=0;i<N;i++)
     {
-        scanf("%d",&a[i]);
+        scanf("%ld",&a[i]);
     }
     Max = a[0];
     for(j=1;j<N;j++)
@@ -17,6 +17,6 @@ int main()
             d = j+1;
         }
     }
-    printf("%d %d",d,Max);
+    printf("%ld %ld",d,Max);
     return 0;
 }
