@@ -12,6 +12,10 @@ int main()
     h = (int)time;
     time = time * 100;
     m = (int)time % 100;
+    if(h>12)
+    {
+        h = h - 12;
+    }
     if(m==0)
         printf("%d:%d0 %c.m.",h,m,n);
     else
